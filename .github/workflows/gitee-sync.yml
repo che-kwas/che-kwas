@@ -23,4 +23,4 @@ jobs:
           timeout: 600
           debug: true
           force_update: true
-          static_list: "blog"
+          static_list: "che-kwas"
