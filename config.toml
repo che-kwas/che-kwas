@@ -1,4 +1,4 @@
-baseURL = "https://che-kwas.gitee.io/blog"
+baseURL = "https://che-kwas.gitee.io"
 languageCode = "zh-cn"
 title = "Che's Notebook"
 theme = "hugo-book"
@@ -7,30 +7,22 @@ theme = "hugo-book"
 #  information on 'doc' type pages.
 enableGitInfo = true
 
+[menu]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/che-kwas/che-kwas"
+  weight = 10
+
+[[menu.after]]
+  name = "Leetcode"
+  url = "https://leetcode-cn.com/u/chekwas/"
+  weight = 20
+
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'auto'
 
-  # (Optional, default true) Controls table of contents visibility on right side of pages.
-  # Start and end levels can be controlled with markup.tableOfContents setting.
-  # You can also specify this parameter per page in front matter.
-  BookToC = true
-
-  # (Optional, default docs) Specify section of content to render as menu
-  # You can also set value to "*" to render all sections to menu
-  BookSection = 'docs'
-
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/che-kwas/blog'
-
-  # (Optional, default January 2, 2006) Configure the date format used on the pages
-  # - In git information
-  # - In blog posts
-  BookDateFormat = 'Jan 2, 2006'
-
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
+  BookRepo = 'https://github.com/che-kwas/che-kwas'

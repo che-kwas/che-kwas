@@ -1,5 +1,5 @@
 ---
-title: "Hello"
+title: "你好世界"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -9,4 +9,10 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-你好，世界！
+## 1 你好
+
+```go
+func main() {
+  fmt.Println("hello world!")
+}
+```
