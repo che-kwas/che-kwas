@@ -18,6 +18,11 @@ enableGitInfo = true
   url = "https://leetcode-cn.com/u/chekwas/"
   weight = 20
 
+[[menu.after]]
+  name = "Email"
+  url = "mailto://che.kwas@outlook.com"
+  weight = 30
+
 [params]
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
